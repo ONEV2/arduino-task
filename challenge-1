@@ -1,0 +1,28 @@
+const char* password="123";//set password
+int i=0;
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  while (Serial.available() == 0);//wait for the input from user
+  char val=Serial.read();//read input from user
+  if(val == 'A' || val == '4' || val == '5' || val == '6' || val == '7' || val == '8' || val == '9' || val == '0')
+  //define invalid keys
+  {
+    i=0;
+    Serial.print("incorrect");
+  }
+  if(val==password[i])
+     {
+     i++;
+     }
+  if(i==3)
+     {
+       Serial.print("correct");
+       Serial.print(millis());
+     }
+  Serial.flush();//delete garbage
+}
