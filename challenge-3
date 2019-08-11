@@ -1,7 +1,7 @@
-int led=3;
+int led=3;//define variable
 void setup()
 {
-  pinMode(led, OUTPUT);
+  pinMode(led, OUTPUT);//set led as output
 }
 
 void loop()
