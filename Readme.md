@@ -1,3 +1,3 @@
 #Arduino codes
-These are first few projects on arduino with their codes.
+Arduino based challenges solution for BiOs 2019 hardware team selection.
 
