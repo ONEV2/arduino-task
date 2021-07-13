@@ -1,3 +1,3 @@
-#Arduino codes
-Arduino based challenges solution for BiOs 2019 hardware team selection.
+#### Arduino codes
+The above files contain solution for arduino based challenges attempted during bi0s hardware selection process(2019).
 
